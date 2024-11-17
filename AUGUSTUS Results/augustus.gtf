@@ -1,0 +1,6 @@
+seq2	AUGUSTUS	gene	11741	12694	0.98	+	.	g1
+seq2	AUGUSTUS	transcript	11741	12694	0.98	+	.	g1.t1
+seq2	AUGUSTUS	start_codon	11741	11743	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	single	11741	12694	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	CDS	11741	12694	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	stop_codon	12692	12694	.	+	0	transcript_id "g1.t1"; gene_id "g1";

@@ -1,0 +1,6 @@
+seq2	AUGUSTUS	gene	11741	12694	0.98	+	.	Gene g1
+seq2	AUGUSTUS	mRNA	11741	12694	0.98	+	.	mRNA g1.t1 ; Gene g1
+seq2	AUGUSTUS	start_codon	11741	11743	.	+	0	mRNA g1.t1
+seq2	AUGUSTUS	single	11741	12694	0.98	+	0	mRNA g1.t1
+seq2	AUGUSTUS	CDS	11741	12694	0.98	+	0	mRNA g1.t1
+seq2	AUGUSTUS	stop_codon	12692	12694	.	+	0	mRNA g1.t1

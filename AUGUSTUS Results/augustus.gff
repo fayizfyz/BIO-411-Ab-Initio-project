@@ -1,0 +1,40 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/www/webaugustus/webdata/augpred/predrGb621m8/genome.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 25120, name = seq2) -----
+#
+# Predicted genes for sequence number 1 on forward strand
+# start gene g1
+seq2	AUGUSTUS	gene	11741	12694	0.98	+	.	g1
+seq2	AUGUSTUS	transcript	11741	12694	0.98	+	.	g1.t1
+seq2	AUGUSTUS	start_codon	11741	11743	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	single	11741	12694	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	CDS	11741	12694	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+seq2	AUGUSTUS	stop_codon	12692	12694	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgtacaacatgatggagacggagctgaagccgccgggcccgcagcaaacttcggggggcggcggcggcaactccaccg
+# cggcggcggccggcggcaaccagaaaaacagcccggaccgcgtcaagcggcccatgaatgccttcatggtgtggtcccgcgggcagcggcgcaagatg
+# gcccaggagaaccccaagatgcacaactcggagatcagcaagcgcctgggcgccgagtggaaacttttgtcggagacggagaagcggccgttcatcga
+# cgaggctaagcggctgcgagcgctgcacatgaaggagcacccggattataaataccggccccggcggaaaaccaagacgctcatgaagaaggataagt
+# acacgctgcccggcgggctgctggcccccggcggcaatagcatggcgagcggggtcggggtgggcgccggcctgggcgcgggcgtgaaccagcgcatg
+# gacagttacgcgcacatgaacggctggagcaacggcagctacagcatgatgcaggaccagctgggctacccgcagcacccgggcctcaatgcgcacgg
+# cgcagcgcagatgcagcccatgcaccgctacgacgtgagcgccctgcagtacaactccatgaccagctcgcagacctacatgaacggctcgcccacct
+# acagcatgtcctactcgcagcagggcacccctggcatggctcttggctccatgggttcggtggtcaagtccgaggccagctccagcccccctgtggtt
+# acctcttcctcccactccagggcgccctgccaggccggggacctccgggacatgatcagcatgtatctccccggcgccgaggtgccggaacccgccgc
+# ccccagcagacttcacatgtcccagcactaccagagcggcccggtgcccggcacggccattaacggcacactgcccctctcacacatgtga]
+# protein sequence = [MYNMMETELKPPGPQQTSGGGGGNSTAAAAGGNQKNSPDRVKRPMNAFMVWSRGQRRKMAQENPKMHNSEISKRLGAE
+# WKLLSETEKRPFIDEAKRLRALHMKEHPDYKYRPRRKTKTLMKKDKYTLPGGLLAPGGNSMASGVGVGAGLGAGVNQRMDSYAHMNGWSNGSYSMMQD
+# QLGYPQHPGLNAHGAAQMQPMHRYDVSALQYNSMTSSQTYMNGSPTYSMSYSQQGTPGMALGSMGSVVKSEASSSPPVVTSSSHSRAPCQAGDLRDMI
+# SMYLPGAEVPEPAAPSRLHMSQHYQSGPVPGTAINGTLPLSHM]
+# end gene g1
+###
+# command line:
+# augustus --species=human --UTR=off --strand=forward --sample=100 --keep_viterbi=true --alternatives-from-sampling=false --genemodel=partial /data/www/webaugustus/webdata/augpred/predrGb621m8/genome.fa --codingseq=on --exonnames=on
